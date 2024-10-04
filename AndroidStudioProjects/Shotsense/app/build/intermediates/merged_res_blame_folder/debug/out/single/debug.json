@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/home/nimnim/AndroidStudioProjects/Shotsense/app/build/intermediates/merged_res/debug/xml_network_security_config.xml.flat",
+        "source": "/home/nimnim/AndroidStudioProjects/Shotsense/app/src/main/res/xml/network_security_config.xml"
+    },
+    {
+        "merged": "/home/nimnim/AndroidStudioProjects/Shotsense/app/build/intermediates/merged_res/debug/drawable_underline.xml.flat",
+        "source": "/home/nimnim/AndroidStudioProjects/Shotsense/app/src/main/res/drawable/underline.xml"
+    },
+    {
+        "merged": "/home/nimnim/AndroidStudioProjects/Shotsense/app/build/intermediates/merged_res/debug/layout_activity_main.xml.flat",
+        "source": "/home/nimnim/AndroidStudioProjects/Shotsense/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/nimnim/AndroidStudioProjects/Shotsense/app/build/intermediates/merged_res/debug/drawable_ic_target.png.flat",
+        "source": "/home/nimnim/AndroidStudioProjects/Shotsense/app/src/main/res/drawable/ic_target.png"
+    },
+    {
+        "merged": "/home/nimnim/AndroidStudioProjects/Shotsense/app/build/intermediates/merged_res/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/home/nimnim/AndroidStudioProjects/Shotsense/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/home/nimnim/AndroidStudioProjects/Shotsense/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_gunshot.png.flat",
+        "source": "/home/nimnim/AndroidStudioProjects/Shotsense/app/src/main/res/mipmap-hdpi/ic_gunshot.png"
+    },
+    {
+        "merged": "/home/nimnim/AndroidStudioProjects/Shotsense/app/build/intermediates/merged_res/debug/drawable_power.xml.flat",
+        "source": "/home/nimnim/AndroidStudioProjects/Shotsense/app/src/main/res/drawable/power.xml"
+    },
+    {
+        "merged": "/home/nimnim/AndroidStudioProjects/Shotsense/app/build/intermediates/merged_res/debug/font_playfair_display_bold.xml.flat",
+        "source": "/home/nimnim/AndroidStudioProjects/Shotsense/app/src/main/res/font/playfair_display_bold.xml"
+    }
+]

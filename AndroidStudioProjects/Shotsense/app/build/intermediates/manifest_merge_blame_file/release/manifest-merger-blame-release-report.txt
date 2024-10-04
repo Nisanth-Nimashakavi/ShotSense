@@ -1,0 +1,129 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.shot.shotsense"
+4    android:versionCode="4"
+5    android:versionName="4" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->/home/nimnim/AndroidStudioProjects/Shotsense/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/home/nimnim/AndroidStudioProjects/Shotsense/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+11-->/home/nimnim/AndroidStudioProjects/Shotsense/app/src/main/AndroidManifest.xml:6:5-71
+11-->/home/nimnim/AndroidStudioProjects/Shotsense/app/src/main/AndroidManifest.xml:6:22-68
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->/home/nimnim/AndroidStudioProjects/Shotsense/app/src/main/AndroidManifest.xml:7:5-79
+12-->/home/nimnim/AndroidStudioProjects/Shotsense/app/src/main/AndroidManifest.xml:7:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->/home/nimnim/AndroidStudioProjects/Shotsense/app/src/main/AndroidManifest.xml:8:5-81
+13-->/home/nimnim/AndroidStudioProjects/Shotsense/app/src/main/AndroidManifest.xml:8:22-78
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/home/nimnim/AndroidStudioProjects/Shotsense/app/src/main/AndroidManifest.xml:9:5-67
+14-->/home/nimnim/AndroidStudioProjects/Shotsense/app/src/main/AndroidManifest.xml:9:22-64
+15    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+15-->/home/nimnim/AndroidStudioProjects/Shotsense/app/src/main/AndroidManifest.xml:10:5-77
+15-->/home/nimnim/AndroidStudioProjects/Shotsense/app/src/main/AndroidManifest.xml:10:22-74
+16    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+16-->/home/nimnim/AndroidStudioProjects/Shotsense/app/src/main/AndroidManifest.xml:11:5-77
+16-->/home/nimnim/AndroidStudioProjects/Shotsense/app/src/main/AndroidManifest.xml:11:22-74
+17    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+17-->/home/nimnim/AndroidStudioProjects/Shotsense/app/src/main/AndroidManifest.xml:12:5-81
+17-->/home/nimnim/AndroidStudioProjects/Shotsense/app/src/main/AndroidManifest.xml:12:22-78
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+19    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+20    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+21
+22    <application
+22-->/home/nimnim/AndroidStudioProjects/Shotsense/app/src/main/AndroidManifest.xml:14:5-47:19
+23        android:allowBackup="true"
+23-->/home/nimnim/AndroidStudioProjects/Shotsense/app/src/main/AndroidManifest.xml:15:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.6.0] /home/nimnim/.gradle/caches/transforms-3/d2246c5ec512fc2da01afb9237ecef27/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+25        android:extractNativeLibs="false"
+26        android:icon="@mipmap/ic_gunshot"
+26-->/home/nimnim/AndroidStudioProjects/Shotsense/app/src/main/AndroidManifest.xml:16:9-42
+27        android:label="ShotSense"
+27-->/home/nimnim/AndroidStudioProjects/Shotsense/app/src/main/AndroidManifest.xml:17:9-34
+28        android:roundIcon="@mipmap/ic_gunshot"
+28-->/home/nimnim/AndroidStudioProjects/Shotsense/app/src/main/AndroidManifest.xml:18:9-47
+29        android:supportsRtl="true"
+29-->/home/nimnim/AndroidStudioProjects/Shotsense/app/src/main/AndroidManifest.xml:19:9-35
+30        android:theme="@style/Theme.AppTheme"
+30-->/home/nimnim/AndroidStudioProjects/Shotsense/app/src/main/AndroidManifest.xml:20:9-46
+31        android:usesCleartextTraffic="true" >
+31-->/home/nimnim/AndroidStudioProjects/Shotsense/app/src/main/AndroidManifest.xml:21:9-44
+32        <receiver
+32-->/home/nimnim/AndroidStudioProjects/Shotsense/app/src/main/AndroidManifest.xml:22:9-31:20
+33            android:name="com.shot.shotsense.BootReceiver"
+33-->/home/nimnim/AndroidStudioProjects/Shotsense/app/src/main/AndroidManifest.xml:23:13-41
+34            android:enabled="true"
+34-->/home/nimnim/AndroidStudioProjects/Shotsense/app/src/main/AndroidManifest.xml:24:13-35
+35            android:exported="false"
+35-->/home/nimnim/AndroidStudioProjects/Shotsense/app/src/main/AndroidManifest.xml:25:13-37
+36            android:permission="android.permission.RECEIVE_BOOT_COMPLETED" >
+36-->/home/nimnim/AndroidStudioProjects/Shotsense/app/src/main/AndroidManifest.xml:26:13-75
+37            <intent-filter>
+37-->/home/nimnim/AndroidStudioProjects/Shotsense/app/src/main/AndroidManifest.xml:27:13-30:29
+38                <action android:name="android.intent.action.BOOT_COMPLETED" />
+38-->/home/nimnim/AndroidStudioProjects/Shotsense/app/src/main/AndroidManifest.xml:28:17-79
+38-->/home/nimnim/AndroidStudioProjects/Shotsense/app/src/main/AndroidManifest.xml:28:25-76
+39                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+39-->/home/nimnim/AndroidStudioProjects/Shotsense/app/src/main/AndroidManifest.xml:29:17-81
+39-->/home/nimnim/AndroidStudioProjects/Shotsense/app/src/main/AndroidManifest.xml:29:25-79
+40            </intent-filter>
+41        </receiver>
+42
+43        <service
+43-->/home/nimnim/AndroidStudioProjects/Shotsense/app/src/main/AndroidManifest.xml:32:9-35:40
+44            android:name="com.shot.shotsense.MyForegroundService"
+44-->/home/nimnim/AndroidStudioProjects/Shotsense/app/src/main/AndroidManifest.xml:33:13-66
+45            android:enabled="true"
+45-->/home/nimnim/AndroidStudioProjects/Shotsense/app/src/main/AndroidManifest.xml:34:13-35
+46            android:exported="false" />
+46-->/home/nimnim/AndroidStudioProjects/Shotsense/app/src/main/AndroidManifest.xml:35:13-37
+47
+48        <activity
+48-->/home/nimnim/AndroidStudioProjects/Shotsense/app/src/main/AndroidManifest.xml:36:9-43:20
+49            android:name="com.shot.shotsense.MainActivity"
+49-->/home/nimnim/AndroidStudioProjects/Shotsense/app/src/main/AndroidManifest.xml:37:13-59
+50            android:exported="true" >
+50-->/home/nimnim/AndroidStudioProjects/Shotsense/app/src/main/AndroidManifest.xml:38:13-36
+51            <intent-filter>
+51-->/home/nimnim/AndroidStudioProjects/Shotsense/app/src/main/AndroidManifest.xml:39:13-42:29
+52                <action android:name="android.intent.action.MAIN" />
+52-->/home/nimnim/AndroidStudioProjects/Shotsense/app/src/main/AndroidManifest.xml:40:17-69
+52-->/home/nimnim/AndroidStudioProjects/Shotsense/app/src/main/AndroidManifest.xml:40:25-66
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->/home/nimnim/AndroidStudioProjects/Shotsense/app/src/main/AndroidManifest.xml:41:17-77
+54-->/home/nimnim/AndroidStudioProjects/Shotsense/app/src/main/AndroidManifest.xml:41:27-74
+55            </intent-filter>
+56        </activity>
+57
+58        <meta-data
+58-->/home/nimnim/AndroidStudioProjects/Shotsense/app/src/main/AndroidManifest.xml:44:9-46:57
+59            android:name="preloaded_fonts"
+59-->/home/nimnim/AndroidStudioProjects/Shotsense/app/src/main/AndroidManifest.xml:45:13-43
+60            android:resource="@array/preloaded_fonts" />
+60-->/home/nimnim/AndroidStudioProjects/Shotsense/app/src/main/AndroidManifest.xml:46:13-54
+61
+62        <activity
+62-->[com.google.android.gms:play-services-base:17.5.0] /home/nimnim/.gradle/caches/transforms-3/e948064bf9b8293a40c2fc51939a059b/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:23:9-26:75
+63            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+63-->[com.google.android.gms:play-services-base:17.5.0] /home/nimnim/.gradle/caches/transforms-3/e948064bf9b8293a40c2fc51939a059b/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:24:13-79
+64            android:exported="false"
+64-->[com.google.android.gms:play-services-base:17.5.0] /home/nimnim/.gradle/caches/transforms-3/e948064bf9b8293a40c2fc51939a059b/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:25:13-37
+65            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+65-->[com.google.android.gms:play-services-base:17.5.0] /home/nimnim/.gradle/caches/transforms-3/e948064bf9b8293a40c2fc51939a059b/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:26:13-72
+66
+67        <meta-data
+67-->[com.google.android.gms:play-services-basement:17.5.0] /home/nimnim/.gradle/caches/transforms-3/6a66fc91030c6fd7bd062c928a6ed6b0/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:23:9-25:69
+68            android:name="com.google.android.gms.version"
+68-->[com.google.android.gms:play-services-basement:17.5.0] /home/nimnim/.gradle/caches/transforms-3/6a66fc91030c6fd7bd062c928a6ed6b0/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:24:13-58
+69            android:value="@integer/google_play_services_version" />
+69-->[com.google.android.gms:play-services-basement:17.5.0] /home/nimnim/.gradle/caches/transforms-3/6a66fc91030c6fd7bd062c928a6ed6b0/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:25:13-66
+70    </application>
+71
+72</manifest>

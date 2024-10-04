@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212"
+    android:orientation="vertical"
+    tools:ignore="ExtraText">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></com.google.android.material.appbar.AppBarLayout>
+
+    <!-- Replace with your button icon -->
+    android:contentDescription="@string/link_button_description" <!-- Add a description for accessibility -->
+    android:backgroundTint="@color/colorAccent" <!-- Change the button color to your preference -->
+    android:onClick="onFloatingActionButtonClick" <!-- Set the onClick handler method -->
+    />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="16dp"
+            android:onClick="onFloatingActionButtonClick"
+            android:src="@mipmap/ic_gunshot" />
+
+
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:includeFontPadding="false"
+        android:text="Shot Sense"
+        android:textColor="#808080"
+        android:textSize="50sp"
+        app:fontFamily="serif-monospace"
+        android:background="@drawable/underline"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"
+        android:text="sample"
+        android:textColor="#808080"
+        android:textSize="70dp" />
+
+</RelativeLayout>
